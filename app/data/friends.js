@@ -1,98 +1,98 @@
 let friend = [
     {
         "name":"Ahmed",
-        "photo":"https://media.licdn.com/mpr/mpr/shrinknp_400_400/p/6/005/064/1bd/3435aa3.jpg",
+        "photo":"https://cdn.lynda.com/course/480112/480112-636123827047994433-16x9.jpg",
         "scores":[
-            5,
-            1,
-            4,
-            4,
-            5,
-            1,
-            2,
-            5,
-            4,
-            1
+            "5",
+            "1",
+            "4",
+            "4",
+            "5",
+            "1",
+            "2",
+            "5",
+            "4",
+            "1"
         ]
     },
     {
         "name": "Jacob Deming",
-        "photo": "https://pbs.twimg.com/profile_images/691785039043022849/oWsy8LNR.jpg",
+        "photo": "https://images.pexels.com/photos/555790/pexels-photo-555790.png?cs=srgb&dl=black-and-white-boy-casual-555790.jpg&fm=jpg",
         "scores": [
-            4,
-            2,
-            5,
-            1,
-            3,
-            2,
-            2,
-            1,
-            3,
-            2
+            "4",
+            "2",
+            "5",
+            "1",
+            "3",
+            "2",
+            "2",
+            "1",
+            "3",
+            "2"
         ]
     },
     {
         "name": "Jeremiah Scanlon",
-        "photo": "https://avatars2.githubusercontent.com/u/8504998?v=3&s=460",
+        "photo": "https://iso.500px.com/wp-content/uploads/2017/02/stock-photo-164841081-1280x1000.jpg",
         "scores": [
-            5,
-            2,
-            2,
-            2,
-            4,
-            1,
-            3,
-            2,
-            5,
-            5
+            "5",
+            "2",
+            "2",
+            "2",
+            "4",
+            "1",
+            "3",
+            "2",
+            "5",
+            "5"
         ]
     },
     {
         "name": "Louis T. Delia",
         "photo": "https://pbs.twimg.com/profile_images/639214960049000449/lNCRC-ub.jpg",
         "scores": [
-            3,
-            3,
-            4,
-            2,
-            2,
-            1,
-            3,
-            2,
-            2,
-            3
+            "3",
+            "3",
+            "4",
+            "2",
+            "2",
+            "1",
+            "3",
+            "2",
+            "2",
+            "3"
         ]
     },
     {
         "name": "Lou Ritter",
-        "photo": "https://media.licdn.com/mpr/mpr/shrinknp_400_400/AAEAAQAAAAAAAAkDAAAAJDhhZTI5NTk2LWQzZjUtNDJjZi1hMTM2LTQ3ZjNmYjE0YmY2NA.jpg",
+        "photo": "https://burst.shopifycdn.com/photos/portrait-of-male-model_373x.progressive.jpg",
         "scores": [
-            4,
-            3,
-            4,
-            1,
-            5,
-            2,
-            5,
-            3,
-            1,
-            4
+            "4",
+            "3",
+            "4",
+            "1",
+            "5",
+            "2",
+            "5",
+            "3",
+            "1",
+            "4"
         ]
     },
     {
         "name": "Jordan Biason",
-        "photo": "https://media.licdn.com/mpr/mpr/shrinknp_400_400/AAEAAQAAAAAAAAisAAAAJGUxYzc4YzA0LWQxMzUtNGI4NS04YTFiLTkwYzM0YTZkNzA2NA.jpg",
+        "photo": "https://images.fastcompany.net/image/upload/w_1280,f_jpg,q_auto,fl_lossy/fc/3022472-poster-p-1-portrait-photographer-peter-hurley-on-the-squinch-your-jawline-and-other-tricks.gif",
         "scores": [
-            4,
-            4,
-            2,
-            3,
-            2,
-            2,
-            3,
-            2,
-            4,
-            5
+            "4",
+            "4",
+            "2",
+            "3",
+            "2",
+            "2",
+            "3",
+            "2",
+            "4",
+            "5"
         ]
     }
 ]

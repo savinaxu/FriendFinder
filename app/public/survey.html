@@ -14,8 +14,26 @@
 
   <!-- Chosen -->
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/chosen/1.5.1/chosen.css">
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/chosen/1.5.1/chosen.jquery.min.js"></script>
+  <style>
+    .form-control:not(#name):not(#photo) {
+      width:25%;
+    }
 
+    #match-img {
+      display: table; 
+      margin: auto;
+      width: 250px;
+    }
+
+    .modal-header {
+      text-align: center; 
+      display: block;
+    }
+
+    h1 {
+      border-bottom: 2px solid black;
+    }
+</style>
 </head>
 
 <body>
@@ -189,27 +207,6 @@
   </div>
 
   <script type="text/javascript">
-    // Chosen CSS
-    var config = {
-      ".chosen-select": {},
-      ".chosen-select-deselect": {
-        allow_single_deselect: true
-      },
-      ".chosen-select-no-single": {
-        disable_search_threshold: 10
-      },
-      ".chosen-select-no-results": {
-        no_results_text: "Oops, nothing found!"
-      },
-      ".chosen-select-width": {
-        width: "95%"
-      }
-    };
-
-    for (let selector in config) {
-      $(selector).chosen(config[selector]);
-    }
-
     // Capture the form inputs
     $("#submit").on("click", function (event) {
       event.preventDefault();
@@ -235,8 +232,8 @@
       if (validateForm()) {
         // Create an object for the user"s data
         let userData = {
-          name: $("#name").val(),
-          photo: $("#photo").val(),
+          name: $("#name").val().trim(),
+          photo: $("#photo").val().trim(),
           scores: [
             $("#q1").val(),
             $("#q2").val(),
@@ -260,6 +257,20 @@
 
           // Show the modal with the best match
           $("#results-modal").modal("toggle");
+
+          //clear the data
+          $("#name").val("")
+          $("#photo").val("")
+          $("#q1").val("0"),
+          $("#q2").val("0"),
+          $("#q3").val("0"),
+          $("#q4").val("0"),
+          $("#q5").val("0"),
+          $("#q6").val("0"),
+          $("#q7").val("0"),
+          $("#q8").val("0"),
+          $("#q9").val("0"),
+          $("#q10").val("0")
 
         });
       } else {
